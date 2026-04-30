@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="playlist.xsl"?>
+<playlist>
+  <track>
+    <title>Untitled (How does it feel?)</title>
+    <artist>D'Angelo</artist>
+    <album>Voodoo</album>
+    <link>https://www.youtube.com/watch?v=6QPQtguRdDs</link>
+  </track>
+  <track>
+    <title>Hyperballad</title>
+    <artist>Bjork</artist>
+    <album>Post</album>
+    <link>https://www.youtube.com/watch?v=kye1TOlAWWw</link>
+  </track>
+  <track>
+    <title>Spotless Mind</title>
+    <album>Souled Out</album>
+    <artist>Jhene Aiko</artist>
+    <link>https://www.youtube.com/watch?v=wJ6umyNCvqw</link>
+  </track>
+  <track>
+    <title>Close To You</title>
+    <artist>Frank Ocean</artist>
+    <album>Blonde</album>
+    <link>https://www.youtube.com/watch?v=ncqkC9Ob2ZI</link>
+  </track>
+  <track>
+    <title>Tell Him</title>
+    <artist>Lauryn Hill</artist>
+    <album>The Miseducation of Lauryn Hill</album>
+    <link>https://www.youtube.com/watch?v=fse2hyTvMy0</link>
+  </track>
+  <track>
+    <title>Winter Woman</title>
+    <artist>RAYE</artist>
+    <album>THIS MUSIC MAY CONTAIN HOPE.</album>
+    <link>https://www.youtube.com/watch?v=doZN3wGUqEQ</link>
+  </track>
+  <track>
+    <title>RENT FREE</title>
+    <artist>SAILORR</artist>
+    <album>FLORIDA'S FINEST</album>
+    <link>https://www.youtube.com/watch?v=pwIRQw6wqfg</link>
+  </track>
+</playlist>
