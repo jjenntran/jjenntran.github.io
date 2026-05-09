@@ -1,43 +1,253 @@
 <!doctype html>
-<html lang="en" class="h-100 w-100"> 
+<html lang="en" class="h-100 w-100">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">  
-</head> 
+  <title>More Favorite Shows</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+  <style>
+    .pink-text {
+      color: #E75480;
+      font-weight: 500;
+      font-family: "Arial Black", Arial, sans-serif;
+    }
+
+    .text-pink {
+      color: #E75480;
+    }
+
+    .pink-nav {
+      background-color: #E75480;
+    }
+  </style>
+</head>
+
 <body class="h-100 w-100 d-flex flex-column">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="navbar">
-    <div class="container"> <a class="navbar-brand" href="#">Site name</a> <button class="navbar-toggler" type="button"
-        data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar"
-        aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark pink-nav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        Favorite Shows
+      </a>
+
+      <button class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
       <div class="collapse navbar-collapse" id="navbar">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="shows.html">Shows</a>
+          </li>
         </ul>
-        <form role="search"> <input class="form-control" type="search" placeholder="Search" aria-label="Search"> </form>
       </div>
     </div>
   </nav>
-  <main class="container flex-grow-1">
-    <div>
-      <h1>Hello, world!</h1>
+
+  <!-- MAIN CONTENT -->
+  <main class="container py-5">
+
+    <!-- TITLE -->
+    <div class="text-center text-pink">
+      <h1 class="display-3 fw-bold">
+        My Top 10 Shows to Binge-watch
+      </h1>
+
+      <p class="lead">
+        A collection of the shows I love the most and can watch forever and ever!
+      </p>
     </div>
+
+    <!-- SHOW LIST -->
+    <div class="d-flex align-items-start gap-3 mb-4 px-5">
+      <img src="images/satc.png"
+        class="img-fluid rounded"
+        style="width: 250px;"
+        alt="Sex and the City">
+
+      <div>
+        <h4 class="pink-text">1. Sex and the City</h4>
+        <p>Binge Worthiness: ★ ★ ★ ★ ★</p>
+        <p>
+          A fun, iconic series about friendship, love, and life in NYC.
+        </p>
+      </div>
+    </div>
+
+    <div class="d-flex align-items-start gap-3 mb-4 px-5">
+      <img src="images/ae.png"
+        class="img-fluid rounded"
+        style="width: 250px;"
+        alt="Abbott Elementary">
+
+      <div>
+        <h4 class="pink-text">2. Abbott Elementary</h4>
+        <p>Binge Worthiness: ★ ★ ★ ★ ★</p>
+        <p>
+          A hilarious mockumentary about teachers at an underfunded public school.
+        </p>
+      </div>
+    </div>
+
+  
+<div class="d-flex align-items-start gap-3 mb-4 px-5">
+  <img src="images/sc.png"
+    class="img-fluid rounded"
+    style="width: 250px;"
+    alt="Schitts Creek">
+  <div>
+    <h4 class="pink-text">3. Schitts Creek</h4>
+    <p>Binge Worthiness: ★ ★ ★ ★</p>
+    <p>
+      A fun, iconic series about friendship, love, and life in NYC.
+    </p>
+  </div>
+</div>
+
+<div class="d-flex align-items-start gap-3 mb-4 px-5">
+  <img src="images/tgp.png"
+    class="img-fluid rounded"
+    style="width: 250px;"
+    alt="The Good Place">
+  <div>
+    <h4 class="pink-text">4. The Good Place</h4>
+    <p>Binge Worthiness: ★ ★ ★ ★</p>
+    <p>
+      A fun, iconic series about friendship, love, and life in NYC.
+    </p>
+  </div>
+</div>
+
+<div class="d-flex align-items-start gap-3 mb-4 px-5">
+  <img src="images/bnn.png"
+    class="img-fluid rounded"
+    style="width: 250px;"
+    alt="Brooklyn Nine Nine">
+  <div>
+    <h4 class="pink-text">5. Brooklyn Nine Nine</h4>
+    <p>Binge Worthiness: ★ ★ ★ ★ ★</p>
+    <p>
+      A fun, iconic series about friendship, love, and life in NYC.
+    </p>
+  </div>
+</div>
+
+<div class="d-flex align-items-start gap-3 mb-4 px-5">
+  <img src="images/ss.png"
+    class="img-fluid rounded"
+    style="width: 250px;"
+    alt="Superstore">
+  <div>
+    <h4 class="pink-text">6. Superstore</h4>
+    <p>Binge Worthiness: ★ ★ ★ ★ ★</p>
+    <p>
+      A fun, iconic series about friendship, love, and life in NYC.
+    </p>
+  </div>
+</div>
+
+<div class="d-flex align-items-start gap-3 mb-4 px-5">
+  <img src="images/aaf.png"
+    class="img-fluid rounded"
+    style="width: 250px;"
+    alt="All American 4">
+  <div>
+    <h4 class="pink-text">7. All American 4</h4>
+    <p>Binge Worthiness: ★ ★ ★ ★ ★</p>
+    <p>
+      A fun, iconic series about friendship, love, and life in NYC.
+    </p>
+  </div>
+</div>
+
+<div class="d-flex align-items-start gap-3 mb-4 px-5">
+  <img src="images/hccc.png"
+    class="img-fluid rounded"
+    style="width: 250px;"
+    alt="Hometown Cha-Cha-Cha">
+  <div>
+    <h4 class="pink-text">8. Hometown Cha-Cha-Cha</h4>
+    <p>Binge Worthiness: ★ ★ ★ ★ ★</p>
+    <p>
+      A fun, iconic series about friendship, love, and life in NYC.
+    </p>
+  </div>
+</div>
+
+<div class="d-flex align-items-start gap-3 mb-4 px-5">
+  <img src="images/nj.png"
+    class="img-fluid rounded"
+    style="width: 250px;"
+    alt="Nurse Jackie">
+  <div>
+    <h4 class="pink-text">9. Nurse Jackie </h4>
+    <p>Binge Worthiness: ★ ★ ★ ★ ★</p>
+    <p>
+      A fun, iconic series about friendship, love, and life in NYC.
+    </p>
+  </div>
+</div>
+
+<div class="d-flex align-items-start gap-3 mb-4 px-5">
+  <img src="images/tp.png"
+    class="img-fluid rounded"
+    style="width: 250px;"
+    alt="The Penthouse">
+  <div>
+    <h4 class="pink-text">10. The Penthouse </h4>
+    <p>Binge Worthiness: ★ ★ ★ ★ ★</p>
+    <p>
+      A fun, iconic series about friendship, love, and life in NYC.
+    </p>
+  </div>
+</div>
+
   </main>
+
+  <!-- FOOTER -->
   <footer class="mt-auto border-top">
     <div class="container d-flex flex-wrap justify-content-between align-items-center py-3">
-      <div class="col-md-4 d-flex align-items-center"><span class="mb-3 mb-md-0 ps-1 text-body-secondary">© 2025 Company, Inc</span></div>
+
+      <div class="col-md-4 d-flex align-items-center">
+        <span class="mb-3 mb-md-0 ps-1 text-body-secondary">
+          © 2025 Company, Inc
+        </span>
+      </div>
+
       <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a></li>
+        <li class="ms-3">
+          <a class="text-body-secondary" href="#">
+            <i class="bi bi-instagram"></i>
+          </a>
+        </li>
+
+        <li class="ms-3">
+          <a class="text-body-secondary" href="#">
+            <i class="bi bi-facebook"></i>
+          </a>
+        </li>
       </ul>
     </div>
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous"></script>
-</body> 
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
 </html>
